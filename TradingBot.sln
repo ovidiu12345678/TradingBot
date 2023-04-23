@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TradingBot", "TradingBot\TradingBot.pyproj", "{D8E455C1-B0D0-4573-8A86-427057D259A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2457BD1-46A9-4A38-981E-24CB0C34F118}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Calculate_Transaction_Srategy", "Calculate_Transaction_Srategy\Calculate_Transaction_Srategy.pyproj", "{1DCAF625-4BB8-47F5-ACAE-9F6FD86BFF4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E455C1-B0D0-4573-8A86-427057D259A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E455C1-B0D0-4573-8A86-427057D259A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCAF625-4BB8-47F5-ACAE-9F6FD86BFF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCAF625-4BB8-47F5-ACAE-9F6FD86BFF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BF40543-BBE7-46A4-94EE-C21A4B32C1B8}
+	EndGlobalSection
+EndGlobal
