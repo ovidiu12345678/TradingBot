@@ -27,8 +27,8 @@ quotes = pickle.load(open('../DATA/jn_all_quotes_active_deleted_12062019.pkl', '
 # Remove non-business days (consider Monday to Friday only)
 quotes = quotes[quotes.index.dayofweek < 5]
 
-# Load FX Market Volatility data upto 2019-06-17 (for evaluation later)
-voldf = pd.read_csv('../DATA/volatility.beginning.to.2019-06-17.csv', 
+# Load FX Market Volatility data upto 2023-04-23-23.09.2023 (for evaluation later)
+voldf = pd.read_csv('../DATA/volatility.beginning.to.2023-04-2023-23709-2023.csv', 
                     index_col=0, 
                     parse_dates=True,
                     infer_datetime_format=True)
